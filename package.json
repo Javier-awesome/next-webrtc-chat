@@ -5,9 +5,9 @@
     "Mario Cao"
   ],
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run dev",
     "build": "next build",
-    "start": "next start -p 3000",
+    "start": "npm run dev",
     "heroku-postbuild": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,6 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "styled-components": "^3.2.1"
-  }
+  },
+  "cacheDirectories": [".next/cache"]
 }
